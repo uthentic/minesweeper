@@ -83,6 +83,11 @@ body {
     font-weight: bold;
     cursor: pointer;
     user-select: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cell:active {
+    transform: scale(0.95);
 }
 
 .cell:hover {
